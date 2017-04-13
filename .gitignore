@@ -1,0 +1,8 @@
+# Book build output
+_book
+
+# eBook build output
+*.epub
+*.mobi
+*.pdf
+
