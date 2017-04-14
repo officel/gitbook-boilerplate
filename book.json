@@ -1,4 +1,21 @@
 {
-    "root": "./docsrc"
+    "root": "./docsrc",
+    "title": "gitbook boilerplate",
+    "description": "はじめてのGitBook",
+    "author": "Y.Nishimura",
+    "gitbook": ">= 3.0.0",
+    "pdf": {
+        "pageNumbers": true,
+        "fontSize": 12,
+        "fontFamiry": "GenShinGothic-Normal.ttf",
+        "paperSize": "a4",
+        "margin": {
+            "top": 56,
+            "bottom": 56,
+            "right": 62,
+            "left": 62
+        }
+    }
+
 }
 
