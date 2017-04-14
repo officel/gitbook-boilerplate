@@ -1,12 +1,17 @@
 # Summary
 
-* [はじめに](README.md)
+* [はじめてのGitBook](README.md)
 
-* [Part01 テスト](part01/README.md)
+## 前書き的なこと
 
-    * [テスト１](part01/test.md)
+* [このリポジトリについて](part01/README.md)
 
-## Part02
+## GitBook
+
+* TL;DR
+* 注意点
+
+## サンプル
 
 ---
 
