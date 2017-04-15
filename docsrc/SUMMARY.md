@@ -10,6 +10,8 @@
 
 ## サンプル
 
+  * GitHub Flavored Markdown
+
 ----
 
 * [用語集](GLOSSARY.md)
