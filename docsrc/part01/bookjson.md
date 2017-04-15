@@ -1,0 +1,20 @@
+# book.json
+
+* see https://toolchain.gitbook.com/config.html
+* [JSONLint](http://jsonlint.com/)に従っているようで気が利かない
+  * "key": "value" のようにダブルクォーテーションで囲む必要がある
+  * 文字列の場合は必須。必然的にキーは囲っていないとエラーになる
+  * 本家サイトのサンプルは囲っていないものがあり、十分にテストされていないものである可能性がある
+  * true/false, 123 などの数値は囲まなくてもエラーにならない
+  * 配列内の最後のカンマは許可されない（余分なカンマはエラーになる）
+* i18nというかマルチ言語対応は試していない
+* Structureも変更する必要を感じていないので試していない
+
+
+
+@todo
+
+* include "git+https://github.com/officel/gitbook-boilerplate.git/book.json" 
+* テンプレートで実ファイルを組み込もうと思ったがgitが必要になるので後回し
+* プラグインも後回し（インストールしていない）
+* pdfオプションについてテスト

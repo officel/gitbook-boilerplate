@@ -3,6 +3,7 @@
 * [はじめてのGitBook](README.md)
 
 * [GitBookを使用した気づき](part01/README.md)
+  * [book.json](part01/bookjson.md)
   * [GLOSSARY.md](part01/glossary.md)
   * [Front Matter](part01/frontmatter.md)
 
