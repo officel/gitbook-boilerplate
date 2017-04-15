@@ -10,8 +10,11 @@ test: test now.
 * YAMLとして扱われる
 * YAMLとしてNGだとserveが落ちる（buildが通らない)
 * description を書いておくと、htmlファイル中のmetaとして扱われる（ソース参照）
-* それ以外の項目は今のところ使い道がない?
   * 同種のmetaのkeywordsは反応しない
-  * -{{ test }}- variablesとしても使えない
+* -{{ page.test }}- variablesとしても使用可能（ページ内に限る）
+  * これについては本家サイトの説明不足なような気がする
   * 参考用にbook.json中のvariables -{{ book.test1 }}-
 
+* SUMMARY.md で使用すると目次中のヘッダーとして文字列のまま出力されてしまう
+  * description も書くことができない
+  * SUMMARY.md はページ内にインクルードされるので必要ないのかもしれない
