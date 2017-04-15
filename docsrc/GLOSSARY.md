@@ -1,15 +1,14 @@
-# 索引
+---
+description: glossary
+---
 
-* see: https://toolchain.gitbook.com/lexicon.html
-* 索引部に日本語は通らないようだ
-* Front Matter を書くとビルドに失敗する。READMEも同じく
-* 文字列に反応してしまうようで、URIのような文字列でも反応してtitleプロパティをつけにくるので掲載語句に注意が必要
+# 索引
 
 ## テスト
 
 これはGLOSSARY.mdのテスト
 
-## GitBook
+## abcdef
 
-see http://www.gitbook.com
-
+this is test of abcdef
+改行も大丈夫
