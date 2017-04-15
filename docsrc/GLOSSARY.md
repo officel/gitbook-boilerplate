@@ -2,11 +2,12 @@
 description: glossary
 ---
 
-# 索引
+# 用語集
 
 ## テスト
 
 これはGLOSSARY.mdのテスト
+日本語の語句は反応しないようだ
 
 ## abcdef
 
