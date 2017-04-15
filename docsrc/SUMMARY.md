@@ -9,9 +9,8 @@
   * [GLOSSARY.md](part01/glossary.md)
   * [Front Matter](part01/frontmatter.md)
 
-## サンプル
-
-  * GitHub Flavored Markdown
+* [Samples](part02/README.md)
+  * [Markdown](part02/markdown.md)
 
 ----
 
