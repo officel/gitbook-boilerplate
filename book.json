@@ -16,6 +16,9 @@
             "left": 62
         }
     },
+    "plugins": [
+        "-sharing"
+     ],
     "variables": {
         "test1": "test1 variable"
     }
