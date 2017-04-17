@@ -13,6 +13,7 @@
   * [Markdown](part02/markdown.md)
   * [Mermaid](part02/mermaid.md)
   * [toc](part02/toc.md)
+  * [UML](part02/uml.md)
 
 ----
 
