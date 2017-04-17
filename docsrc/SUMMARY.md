@@ -11,6 +11,7 @@
 
 * [Samples](part02/README.md)
   * [Markdown](part02/markdown.md)
+  * [Mermaid](part02/mermaid.md)
 
 ----
 

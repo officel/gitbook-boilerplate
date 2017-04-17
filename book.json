@@ -17,7 +17,11 @@
         }
     },
     "plugins": [
-        "-sharing"
+        "-sharing",
+        "graph",
+        "mermaid-gb3",
+        "uml",
+        "toc"
      ],
     "variables": {
         "test1": "test1 variable"
