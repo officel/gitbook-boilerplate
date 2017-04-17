@@ -23,6 +23,12 @@
         "uml",
         "toc"
      ],
+    "pluginsConfig": {
+        "toc": {
+            "addClass": true,
+            "className": "toc"
+        }
+    },
     "variables": {
         "test1": "test1 variable"
     }
