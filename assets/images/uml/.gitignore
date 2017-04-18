@@ -1,0 +1,5 @@
+# see http://qiita.com/ndxbn/items/f124d2b183b60cb074e2
+# and https://github.com/laravel/laravel/blob/master/storage/logs/.gitignore
+*
+!.gitignore
+
