@@ -14,6 +14,7 @@
   * [Mermaid](part02/mermaid.md)
   * [toc](part02/toc.md)
   * [UML](part02/uml.md)
+  * [graph](part02/graph.md)
 
 ----
 

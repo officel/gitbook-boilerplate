@@ -12,11 +12,15 @@
 * 前述の設定のマニュアルには書かれていないが、テンプレートで使用できる変数を埋めることができる
   * {{ book.test1 }} はbook.json中の変数
 
+## book.json now
+
+このリポジトリのbook.jsonの中身
+
+<pre>
+{% include "git+https://github.com/officel/gitbook-boilerplate.git/book.json"  %}
+</pre>
 
 
 @todo
 
-* include "git+https://github.com/officel/gitbook-boilerplate.git/book.json" 
-* テンプレートで実ファイルを組み込もうと思ったがgitが必要になるので後回し
-* プラグインも後回し（インストールしていない）
 * pdfオプションについてテスト
