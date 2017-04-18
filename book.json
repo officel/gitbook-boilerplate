@@ -28,6 +28,10 @@
         "toc": {
             "addClass": true,
             "className": "toc"
+        },
+        "uml": {
+            "format": "png",
+            "nailgun": false
         }
     },
     "variables": {
