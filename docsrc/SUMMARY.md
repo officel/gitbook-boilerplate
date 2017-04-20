@@ -11,6 +11,7 @@
   * [Plugins](part01/plugins.md)
 
 * [Samples](part02/README.md)
+  * [Templating](part02/templating.md)
   * [Markdown](part02/markdown.md)
   * [Mermaid](part02/mermaid.md)
   * [toc](part02/toc.md)
