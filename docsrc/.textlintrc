@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        "html"
+    ],
+    "filters": {
+        "comments": true
+    },
+    "rules": {
+        "no-todo": true,
+        "preset-jtf-style": true
+    }
+}
