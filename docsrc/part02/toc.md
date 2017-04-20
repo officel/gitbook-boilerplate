@@ -10,7 +10,7 @@
 
 ## h2-2
 
-book.json の plugins に toc を追加
+book.jsonのpluginsにtocを追加
 
 ### h3-1
 
@@ -18,7 +18,7 @@ book.json の plugins に toc を追加
 
 ### h3-2
 
-book.json の pluginsConfig に設定を入れておくとhtmlのclassが追加される
+book.jsonのpluginsConfigに設定を入れておくとhtmlのclassが追加される
 
 #### h4
 
