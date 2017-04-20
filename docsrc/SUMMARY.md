@@ -8,6 +8,7 @@
   * [SUMMARY.md](part01/summary.md)
   * [GLOSSARY.md](part01/glossary.md)
   * [Front Matter](part01/frontmatter.md)
+  * [Plugins](part01/plugins.md)
 
 * [Samples](part02/README.md)
   * [Markdown](part02/markdown.md)
