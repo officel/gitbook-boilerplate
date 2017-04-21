@@ -19,9 +19,7 @@
     "plugins": [
         "-sharing",
         "hide-published-with",
-        "graph",
         "mermaid-gb3",
-        "uml",
         "toc"
      ],
     "pluginsConfig": {

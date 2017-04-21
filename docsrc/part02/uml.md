@@ -1,5 +1,9 @@
 # uml
 
+## memo
+
+* "uml"プラグインでWARNが出力されてGitBookが公開できないので見送り中
+
 ```uml
 @startuml
 
