@@ -30,6 +30,8 @@ test2: foobarfoobar
     * <code>``</code>で囲むとタグがエンティティ化してしまってダメだった
 
   * そもそも[本家のドキュメントページ](https://toolchain.gitbook.com/syntax/markdown.html#code)すら壊れていた
+  * 後述のescape`{% raw %}`もテーブル内では無効のようだ
+  * `{{ page.test }}`
 
 `{{ test }}`, `{{ page.test }}`, `{{ book.test1 }}`このように、パラグラフ中では表現できている。
 
@@ -44,4 +46,5 @@ test2: foobarfoobar
 * {{ test1 | title }}（注：この機能がよくわからない）
 * {{ page.test1 | join(",") }}
 * {{ page.test2 | replace("foo", "bar") | capitalize }}
+
 
