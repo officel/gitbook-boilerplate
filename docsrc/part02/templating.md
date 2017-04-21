@@ -20,7 +20,7 @@ test2: foobarfoobar
 | <code>{<span>{</span> book.test1 }}</code> | {{ book.test1 }} |
 
 * 変数の値がない場合は空になる
-* pageはFrontMatterで定義されているもの？
+* pageはFront Matterで定義されているもの？
 * bookはbook.jsonで定義
 * テーブルやリストのmarkdown記法内で<code>``</code>を書いても変数展開されてしまう？
 
@@ -31,7 +31,7 @@ test2: foobarfoobar
 
   * そもそも[本家のドキュメントページ](https://toolchain.gitbook.com/syntax/markdown.html#code)すら壊れていた
   * 後述のescape`{% raw %}`もテーブル内では無効のようだ
-  * `{{ page.test }}`
+  * `{{ page.test }}` GitBook Editor では Front Matter の値は出力されない
 
 `{{ test }}`, `{{ page.test }}`, `{{ book.test1 }}`このように、パラグラフ中では表現できている。
 
