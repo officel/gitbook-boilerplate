@@ -30,7 +30,7 @@ test2: foobarfoobar
     * <code>``</code>で囲むとタグがエンティティ化してしまってダメだった
 
   * そもそも[本家のドキュメントページ](https://toolchain.gitbook.com/syntax/markdown.html#code)すら壊れていた
-  * 後述のescape`{% raw %} {% endraw %}`もテーブル内では無効のようだ
+  * 後述のescape<code>{<span>%</span> raw %} <span>{</span>% endraw %}</code>もテーブルやリスト内では無効のようだ
   * `{{ page.test }}` GitBook Editor では Front Matter の値は出力されない
 
 `{{ test }}`, `{{ page.test }}`, `{{ book.test1 }}`このように、パラグラフ中では表現できている。
@@ -38,13 +38,33 @@ test2: foobarfoobar
 ### Filters
 
 ```
+{% set title = "test title" %}
 * {{ test1 | title }}
 * {{ page.test1 | join(",") }}
 * {{ page.test2 | replace("foo", "bar") | capitalize }}
 ```
 
+{% set title = "test title" %}
 * {{ test1 | title }}（注：この機能がよくわからない）
 * {{ page.test1 | join(",") }}
 * {{ page.test2 | replace("foo", "bar") | capitalize }}
+
+### Tags
+
+if, elif, else, endif, for, endfor, set
+
+### Escaping
+
+```
+{% raw %}
+  this will {{ not be processed }}
+{% endraw %}
+```
+
+{% raw %}
+  this will {{ not be processed }}
+{% endraw %}
+
+
 
 
