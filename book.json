@@ -20,6 +20,7 @@
         "-sharing",
         "hide-published-with",
         "mermaid-gb3",
+        "puml",
         "toc"
      ],
     "pluginsConfig": {
