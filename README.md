@@ -5,6 +5,8 @@ Start [GitBook](https://www.gitbook.com/) on local.
 This repos are only boilerplate for GitBook.
 But combine with other tools to prepare a happy environment.
 
+see [はじめてのGitBook ・ gitbook-boilerplate](https://officel.gitbooks.io/gitbook-boilerplate/content/) on GitBook
+
 ## tl;dr
 
 * Easily prepare local environment
