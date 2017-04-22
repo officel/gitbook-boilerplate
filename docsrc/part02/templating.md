@@ -49,6 +49,8 @@ test2: foobarfoobar
 * {{ page.test1 | join(",") }}
 * {{ page.test2 | replace("foo", "bar") | capitalize }}
 
+title filterはひょっとして[これ](https://github.com/GitbookIO/gitbook/pull/1748)で削られた？
+
 ### Tags
 
 if, elif, else, endif, for, endfor, set
