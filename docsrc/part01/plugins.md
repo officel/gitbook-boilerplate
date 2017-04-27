@@ -16,5 +16,14 @@
 * [gitbook-plugin-graph](https://www.npmjs.com/package/gitbook-plugin-graph)
 * [gitbook-plugin-mermaid-gb3](https://www.npmjs.com/package/gitbook-plugin-mermaid-gb3)
 * [gitbook-plugin-uml](https://www.npmjs.com/package/gitbook-plugin-uml)
-* [gitbook-plugin-toc](https://www.npmjs.com/package/gitbook-plugin-toc)
+
+* 日本語は出力されない？
+
+* [gitbook-plugin-puml](https://www.npmjs.com/package/gitbook-plugin-puml)
+
+  * 日本語は文字化ける
+  * [When generate chart with non-ascii char are broken. ・ Issue #1 ・ GitbookIO/plugin-puml](https://github.com/GitbookIO/plugin-puml/issues/1)
+  * 正確にはpluntuml-encoder側の問題だったようで、それは既に修正されているけど、pumlのほうのpackage.json が対象バージョンを修正していない
+
+a [gitbook-plugin-toc](https://www.npmjs.com/package/gitbook-plugin-toc)
 
