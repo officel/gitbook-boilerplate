@@ -31,6 +31,7 @@
     * https://github.com/markushedvall/plantuml-encoder/commit/10661ab545cdbb3d4bda332c1d53f2ebd17f2a45
 
   * 一応これで日本語は通ったが、プラグイン作者さんが対応してくれないと毎回この手作業にするか、docker側で修正して組み込むかのどちらかに。。。
+  * !include が使えないようだ。パスも繰り返し確認したがsyntax errorになってしまう。今のところ解決策が見えていない
 
 a [gitbook-plugin-toc](https://www.npmjs.com/package/gitbook-plugin-toc)
 
